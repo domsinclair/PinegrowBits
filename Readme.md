@@ -15,3 +15,5 @@ This repository contains what will hopefully become a set of useful files for us
 
 [How to create a basic Tailwind site](basicsite.md)
 
+[How to setup a Pinegrow Project from the basic tailwind site](pgbasictemplate.md)
+
