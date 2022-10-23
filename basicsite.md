@@ -154,6 +154,7 @@ Open up the package.json file and amend the "scripts" section.
     "tailwindcss": "^3.2.1"
   }
 }
+```
 
 The line we have just added is essentially telling Tailwind the the main source of truth (all of the tailwind classes) can be derived from the source.css file in the tailwind_theme folder.  Aftere processing the files we want processed (ad listed in the content section of the tailwind config file) output the required tailwind css classes to a new tailwind.css file in the tailwind_thene folder.
 
