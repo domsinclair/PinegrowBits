@@ -5,11 +5,18 @@ We are now going to use the BaseTheme that we created before to create a basic P
 Navigate to the [GitHub repository](https://github.com/domsinclair/BaseTheme) for the base theme, click on the code button and select Download Zip.  We just want the code from the repository as we won't be cloning it.
 
 
+
 ![image Terminal Window](./images/tutorial2/img1.jpg)
+
+
 
 Create a new folder on your computer and extract the contents of the zip file to it.  You want to end up with something that looks like this.
 
+
+
 ![image Terminal Window](./images/tutorial2/img2.jpg)
+
+
 
 Note that the readme.md file has been deleted as it serves no useful purpose here.
 
@@ -18,16 +25,23 @@ Now open Pinegrow and select 'Open File'. in the open file dialog that opens nav
 The file will be opened.  Pinegrow will recognise that it is using Tailwind automatically.  As soon as the file has opened Pinegrow will prompt you to open index.html as a project.  Do so.
 
 
+
 ![image Terminal Window](./images/tutorial2/img3.jpg)
+
 
 
 As soon as the file has been opened as a project Pinegrow suggests that we Activate the design panel so that we can customise the design theme for our project.  Do so.
 
 
+
 ![image Terminal Window](./images/tutorial2/img4.jpg)
 
 
+
+
 As soon as you click Activate Pinegrow will ask if you want to use the built in compiler or the external compiler.
+
+
 
 
 ![image Terminal Window](./images/tutorial2/img5.jpg)
@@ -46,7 +60,9 @@ ___
 Pinegrow now informs us that the Tailwind CSS source file isn't set.  Open the Tailwind CSS options.
 
 
+
 ![image Terminal Window](./images/tutorial2/img6.jpg)
+
 
 In the dialog that opens 'External build process' will have been chosen by defualt in the compiler field.  In the Source CSS file field navigate to the tailwind_theme folder and select the source.css file therein.
 
@@ -197,14 +213,21 @@ You'll probably find this easier to do in VSCode, so open up the project folder 
 
 The first is Pinegrow Live Sync that syns vs code and pinegrow.
 
+
+
 ![image Terminal Window](./images/tutorial2/img8.jpg)
 
+
+
 the second is Tailwind CSS Intellisense
+
+
 
 ![image Terminal Window](./images/tutorial2/img8.jpg)
 
 
 ___
+
 
 
 In the tailwind.config.js file navigate to the bottom and amend the content and theme sections.
