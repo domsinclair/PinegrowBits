@@ -188,6 +188,50 @@ If everything goes to plan and you haven't deviated from these instructions you 
 
 ![image Terminal Window](./images/tutorial1/img8.jpg)
 
+There are a number of plugins that can be added to Tailwind that add certain functionality.
+
+We're going to add three to our base theme.
+
+Typography, which adds some pre built styling to text content via the Prose utility.
+
+At the command prompt type 
+
+```npm install -D @tailwindcss/typography```
+
+Prettier, this organises the utility classes in out html.  It does actually affect the CSS at all but it does add a certain logic to the way that long strings of classes get displayed.
+
+At the command prompt type
+
+``` npm install -D prettier prettier-plugin-tailwind```
+
+
+If this all went to plan the package.json file should now look like this
+
+```json
+{
+  "name": "BaseTheme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./tailwind_theme/source.css  -o ./tailwind_theme/tailwind.css  --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.7",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "tailwindcss": "^3.2.1"
+  }
+}
+```
+
+
+
 That completes the BaseTheme creation.  This project can now be used as a basic starter template for a new Pinegrow project.
 
 You can make use of this project by downloading the code from the relevant [GitHub repository](https://github.com/domsinclair/BaseTheme).

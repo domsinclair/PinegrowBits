@@ -258,7 +258,7 @@ Add an additional line to the scripts section of the package.json file.
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./tailwind_theme/source.css  -o ./tailwind_theme/tailwind.css  --watch"
+    "dev": "npx tailwindcss -i ./tailwind_theme/source.css  -o ./tailwind_theme/tailwind.css  --watch",
     "pgserver": "browser-sync start --proxy 'http://127.0.0.1:40000'"
   },
   "keywords": [],
