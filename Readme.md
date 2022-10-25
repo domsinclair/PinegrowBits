@@ -4,9 +4,21 @@ This repository contains what will hopefully become a set of useful files for us
 
 **Table of Contents**
 
+[Tailwind CSS](#tailwind)
+
 [Tutorials](#tutorials)
    
 
+
+# Tailwind
+
+Tailwind is a CSS framework that is applied to your html via classes.  There are literally hundreds of classes that you can chose from to add styling to your html and whilst this might seem daunting at first the concept is actually very simple and to a certain extent you can almost guess your way around.
+
+To try and make things a bit easier to get started there is a simple cheat sheet that I've drawn up (ostensibly for my own use at first) to get you started.  It's also available as a pdf so that you can have a paper reference copy.
+
+Contents
+
+[Cheat Sheet](cheatsheet.md)
 
 
 # Tutorials
