@@ -35,9 +35,9 @@ The project should now look like this.
 
 ![image Terminal Window](./images/tutorial1/img3.jpg)
 
-The next step is to add the Tailwind configuration file.  At the command prompt type the following.
+The next step is to add the Tailwind configuration file. We can use a crafty little trick here and add another configuration file that we're going to need for the PostCSS at the same time. At the command prompt type the following.
 
-`npx tailwindcss init `
+`npx tailwindcss init -p`
 
 You should now see the tailwind.config.js file in your project.
 
@@ -60,7 +60,7 @@ Essentially this file dictates what html or javascript in our project will be ex
 
 Additional extensions that are made to Tailwind are added to the extend section and any additional plugins that may need to be referenced are noted in the plugin section.
 
-We now need to add a file to configure the PostCSS tool.  Add a new file called postcss.config.js to your project and the add the following code to it.
+At the same time as the tailwind.config.js tool was added so too was the postcss.config.js file.
 
 ```js
 module.exports = {
