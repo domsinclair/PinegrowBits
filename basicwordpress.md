@@ -134,21 +134,29 @@ ___
 
 ### Creating the index.html page
 
-To provide the maximum flexibility for our theme we'll create both the header and footer that we're going to need by using the html tags from the library.
+To keep things simple for the moment we'll use the pre-designed blocks that Pinegrow have provided.
 
-Switch back to the list view on the library panel and from the layout section drag a header, nav and div tag in that order onto the page.  You should end up with a page that looks like this.
+From the blocks tab in the library select the Headers section and find the Fullwidth menu,  It's not the most spectacular header design wise but it will do for what we require.  Drag it to your page and you'll have a header section at the top.
+
+Next up we are going to need a footer section.  From the blocks find the footers and drag Footer Block 2 onto the page.
+
+The page should now look like this
+
+![image Terminal Window](./images/tutorial3/img10.jpg)
+
+We have a header at the top and a footer at the bottom.  Now all we need is something in the middle to act as a container for the rest of the templates we will create.
 
 
-![image Terminal Window](./images/tutorial3/img9.jpg)
+Return to the list section of the Library. Find the sections section and from there drag a section tag into the structure tree to sit between the header and footer. With the section still selected open the WordPress panel and scroll down through the WordPress actions until you find Site Content.  Select that.  
 
-Let's add a little style to this. Add the following to the nav tag;
+In the structure tree locate the div in the header section that contains the menu items.  Add a WordPress Menu action to it.
 
-```html
-<nav class="bg-slate-200 dark:bg-slate-800">
+Now save the page and Export the theme.
 
-```
 
-As an overall background colour for our navigation section in the header we have set selected slate-200 (an off white) which will be the colour shown unless the end user has selected to have their web pages delivered in a dark mode, in which case the colour will be slate-800.  This illustrates one of the very practical benefits of using Tailwind to style our site, things like dark mode are very easy to implement.
+### Creating the page.html page
 
-It would be nice to have a logo in the header and a menu.  That suggests that we may need to make use of Flex for responsive positioning.
+If you refer back to the visual diagram of the WordPress template layout from earlier you'll see that single blog posts and pages get displayed via the page.php template.
+
+In the project panel click on the little drop down arrow next to the project name and from the drop down menu select Create a new File.  In the dialog that opens name this page.html and click OK.
 
