@@ -240,3 +240,139 @@ Make sure that you set the location of your new menu on the Manage Locations Tab
 Open up you site on the front end and observe that your theme is now active , the menu is set to the menu you created amd clicking the Home item will display the Home page.
 
 
+## Completing the basic WordPress templates
+
+We have a few more basic templates to complete in order to meet the basic requirements for a WordPress site. Before we continue you may find it helpful to reference this [Pinegrow Documentation Article](https://pinegrow.com/docs/wordpress/a-short-guide-to-wordpress-template-names/) which talks about the names you may wish to apply to your templates and why. We could do with one to display single posts (single.php), one to act as a blog archive (archive.php) and one to cover errors as in page/post not found (404.php)
+
+### Single php
+
+This is the easiest one to create as we can just replicate the page.html. In the project panel right click on page.html and from the context menu select duplicate.  Enter single.html when prompted for a name.
+
+Save the file and export the theme.  Open the local site and click on the post menu item you created.  The post is shown but it's hardly inspiring in terms of style.  Let's correct that.
+
+Open the tailwind.config.js file and amend the exports section so that it looks like this.
+
+``` js
+module.exports = {
+  content: ["./_pginfo/**/*.{html,js,css}",
+  "./*.{html,js,css}",
+  "./inc/**/*.{html,js,css}",
+],
+  theme: {
+    extend: {
+ colors: pg_colors, //<-- Use the pg_colors for colors
+      fontFamily: pg_fonts, //<-- Use the pg_fonts for fonts
+    },
+  },
+  plugins: [
+    require('@tailwindcss/typography')
+  ],
+}
+```
+
+To ensure that your posts get some styling amend the div in the section and add two additional tailwind classes to it.
+
+```html
+ <section wp-site-content>
+            <div class="container mx-auto p-4 prose prose-lg" cms-post-content></div>
+ </section>
+ ```
+This makes use of Tailwinds typography class.  Save and export the theme and look again at your post, its appearance has been greatly improved.
+
+
+### 404 php
+
+This too is relatively easy to do.  Once again duplicate the page.html and this time when prompted for the name enter page-404.html (html pages can't have names that start with numbers).
+
+Amend the html for the page to resemble what we have below.
+
+```html
+<!DOCTYPE html> 
+<html lang="en" wp-template> 
+    <head> 
+        <meta charset="utf-8"/> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"/> 
+        <meta name="description" content=""/> 
+        <meta name="author" content=""/> 
+        <title>New page</title>         
+        <link href="tailwind_theme/tailwind.css" rel="stylesheet" type="text/css"/> 
+    </head>     
+    <body>
+        <section wp-site-content>
+            <div class="container mx-auto p-4 text-center text-3xl font-bold">Page Not Found</div>
+        </section>
+    </body>     
+</html>
+```
+ Just before we save the page and export it, from the WordPress menu select Page Settings and ensure that we export it as 404.php
+
+ ![image Terminal Window](./images/tutorial3/img16.jpg)
+
+Save the page and Export the theme.  If you fire up the local site and then try and navigate to a page you know doesn't exist you should see your newly created 404 template displayed.
+
+### Home php
+
+The last thing we are going to do in our, very basic, WordPress theme is to create a template to display a blog archive.  
+
+In the local WordPress site create a new Page called Blog Archive and publish it.  Add that new page to the Main Menu.  Finally go to the Reading Settings page and set the Posts Page to Blog Archive.  With that done return to Pinegrow.
+
+Add a new page called home.html.
+
+Set its basic html to resemble  the code below.
+
+```html
+<!DOCTYPE html> 
+<html lang="en" wp-template wp-template-export-as="home.php"> 
+    <head> 
+        <meta charset="utf-8"/> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"/> 
+        <meta name="description" content=""/> 
+        <meta name="author" content=""/> 
+        <title>Archive page</title>         
+        <link href="tailwind_theme/tailwind.css" rel="stylesheet" type="text/css"/> 
+    </head>     
+    <body>
+        <section wp-site-content>
+             <div class="container mx-auto p-4"></div>
+        </section>
+    </body>     
+</html>
+```
+
+To make creating this archive page a little easier we'll make use of another one of Pinegrow's pre-made Tailwind Blocks.  Open the library panel and select the Blocks tab.
+
+
+---
+**NOTE**
+
+If you can't see the blocks tab go to the Page menu and select Manage libraries and Plugins.  In the dialog that opens select Tailwind CSS Blocks.  In the next dialog have them applied to the archive page only.
+___
+
+In the Blocks navigate to the Blog Posts section and from within that select Post Block 1 and drag it to the page.
+
+Now this needs to be configured to show the posts.
+
+1. In the structure panel find the first div below the new section that was added that contains the new block and select it.
+
+
+ ![image Terminal Window](./images/tutorial3/img17.jpg)
+
+
+2. Open the WordPress panel and add a Show Posts smart action.  it needs to be configured as per the illustration below. Configure this as shown in the image below.
+
+ ![image Terminal Window](./images/tutorial3/img18.jpg)
+
+ 3. Return to the structure panel. Select the remain two divs that contain posts and from The WordPress Panel apply the Global smart Action Don't Export.  Your structure panel should look similar to this.
+
+![image Terminal Window](./images/tutorial3/img19.jpg)
+
+4. Now return to the first of the post items in the structure panel and add WordPress actions to them so that we will actually pick up the real posts.  Your structure panel should end up like this.
+
+![image Terminal Window](./images/tutorial3/img20.jpg)
+
+
+Save the page and export the theme.  Open up your local site and navigate to the Blog Archive.
+
+The fake posts that were created by faker press should appear.
