@@ -158,5 +158,85 @@ Now save the page and Export the theme.
 
 If you refer back to the visual diagram of the WordPress template layout from earlier you'll see that single blog posts and pages get displayed via the page.php template.
 
-In the project panel click on the little drop down arrow next to the project name and from the drop down menu select Create a new File.  In the dialog that opens name this page.html and click OK.
+In the project panel click on the little drop down arrow next to the project name and from the drop down menu select Add a new Page.  From the dialog that pops up select plain html and then select index.html.
+
+![image Terminal Window](./images/tutorial3/img11.jpg)
+
+You'll be asked to name the new page and for the name.
+
+![image Terminal Window](./images/tutorial3/img12.jpg)
+
+Now open up the page.html and its code.  Replave the link tag in the head section with the same link as exists in your index.html so that it can reference the Tailwind stylesheet.
+
+```html
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="utf-8"/> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"/> 
+        <meta name="description" content=""/> 
+        <meta name="author" content=""/> 
+        <title>New page</title>         
+        <link href="tailwind_theme/tailwind.css" rel="stylesheet" type="text/css"/> 
+    </head>     
+    <body></body>     
+</html>
+```
+
+Open the WordPress panel and click the Page Settings button.  This will ensure that the page / template gets added to your WordPress Theme. There is no need to alter any of the default Page Settings.
+
+![image Terminal Window](./images/tutorial3/img13.jpg)
+
+Just two more small jobs to complete the job.
+
+Add a section to the page from the library and once it is in place apply the WordPress Site Content action to it (found in the WordPress Panel).
+
+To that section add a div and set the WordPress Post Content action to it.
+
+Your page,html code should now resemble this.
+
+```html
+<!DOCTYPE html> 
+<html lang="en" wp-template> 
+    <head> 
+        <meta charset="utf-8"/> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"/> 
+        <meta name="description" content=""/> 
+        <meta name="author" content=""/> 
+        <title>New page</title>         
+        <link href="tailwind_theme/tailwind.css" rel="stylesheet" type="text/css"/> 
+    </head>     
+    <body>
+        <section wp-site-content>
+            <div class="container mx-auto p-4" cms-post-content></div>
+        </section>
+    </body>     
+</html>
+```
+Notice on the div that we have applied the Tailwind container class which effectively causes the div to be full width.  We've also added left/right margin of auto and padding all round.
+
+## Adding the new theme to the WordPress site
+
+
+Now that we have a very basic theme ready it's time to try it out in WordPress itself.
+
+Open up your local WordPress site.  Carry out the following tasks.
+
+1. Go to the Plugins page.  Delete Akismet and Hello Dolly plugins
+2. Add the Faker Press plugin to the site.
+3. Create a few fake posts using Faker Press.
+4. Create a new page, call it Home, add some basic content and publish.
+5. Activate your new theme, you'll find it's already listed in the themes section.
+
+![image Terminal Window](./images/tutorial3/img14.jpg)
+
+Create a new menu, add your new Home page to it and one of your faked posts.
+Make sure that you set the location of your new menu on the Manage Locations Tab. This will ensure that Pinegrow's smart action for the WordPress menu can take effect.
+
+![image Terminal Window](./images/tutorial3/img15.jpg)
+
+Open up you site on the front end and observe that your theme is now active , the menu is set to the menu you created amd clicking the Home item will display the Home page.
+
 
