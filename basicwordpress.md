@@ -1,5 +1,21 @@
 # Creating a basic WordPress site using Pinegrow
 
+- [Creating a basic WordPress site using Pinegrow](#creating-a-basic-wordpress-site-using-pinegrow)
+  - [Getting Started](#getting-started)
+    - [Creating a local WordPress site](#creating-a-local-wordpress-site)
+    - [Configure Pinegrow for WordPress](#configure-pinegrow-for-wordpress)
+    - [Adding the basics to our theme](#adding-the-basics-to-our-theme)
+  - [The Main Catch All Template (index.php)](#the-main-catch-all-template-indexphp)
+    - [Using Pinegrow](#using-pinegrow)
+    - [Creating the index.html page](#creating-the-indexhtml-page)
+    - [Creating the page.html page](#creating-the-pagehtml-page)
+  - [Adding the new theme to the WordPress site](#adding-the-new-theme-to-the-wordpress-site)
+  - [Completing the basic WordPress templates](#completing-the-basic-wordpress-templates)
+    - [Single php](#single-php)
+    - [404 php](#404-php)
+    - [Home php](#home-php)
+  - [Conclusion](#conclusion)
+
 This tutorial is aimed at those people who generally create websites based on the WordPress CRM and especially for those who have generally used specific WordPress page builders to accomplish that task.
 
 This tutorial is going to use the BaseTheme that we developed and then imported into Pinegrow as our staring point.  If you haven't read those yet then it will help your understanding of what is to follow if you do so now.
@@ -376,3 +392,9 @@ Now this needs to be configured to show the posts.
 Save the page and export the theme.  Open up your local site and navigate to the Blog Archive.
 
 The fake posts that were created by faker press should appear.
+
+## Conclusion
+
+That just about wraps things up for the basic theme that we have been creating.
+
+As it is it's not particularly pretty and it's without doubt very basic but it does work.  You could zip up the contents of the theme as it is in your local sites themes folder and then import that theme into a word press site on the web.  For now this seems to ba a good place to stop.
