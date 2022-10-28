@@ -1,5 +1,16 @@
 # WordPress Themes:  Theory and Practicality
 
+- [WordPress Themes:  Theory and Practicality](#wordpress-themes--theory-and-practicality)
+  - [Basic Requirements](#basic-requirements)
+    - [WordPress](#wordpress)
+    - [HTML and CSS](#html-and-css)
+    - [PHP and Javascript](#php-and-javascript)
+    - [A Good IDE](#a-good-ide)
+  - [The WordPress Theme](#the-wordpress-theme)
+    - [Theory](#theory)
+    - [Practicality](#practicality)
+    - [Style / CSS](#style--css)
+
 If you're reading this having come from the tutorial on creating a basic WordPress theme then you'll already know that it's not that difficult to accomplish the task in Pinegrow but you'll no doubt be thinking that the result was hardly inspiring and not exactly practical either.
 
 What is really required is a good basic starter theme that can be customised easily and which in due course (with the addition of some pre built Gutenberg blocks) can be used by end users to add content simply, quickly and hopefully, without breaking anything.
