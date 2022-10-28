@@ -1,6 +1,6 @@
-# Creating a basic WordPress site using Pinegrow
+# Creating a basic WordPress theme using Pinegrow
 
-- [Creating a basic WordPress site using Pinegrow](#creating-a-basic-wordpress-site-using-pinegrow)
+- [Creating a basic WordPress theme using Pinegrow](#creating-a-basic-wordpress-theme-using-pinegrow)
   - [Getting Started](#getting-started)
     - [Creating a local WordPress site](#creating-a-local-wordpress-site)
     - [Configure Pinegrow for WordPress](#configure-pinegrow-for-wordpress)

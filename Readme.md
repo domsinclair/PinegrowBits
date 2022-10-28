@@ -29,5 +29,7 @@ Contents
 
 [How to setup a Pinegrow Project from the basic tailwind site](pgbasictemplate.md)
 
-[Creating a basic WordPress site using Pinegrow](basicwordpress.md)
+[Creating a basic WordPress theme using Pinegrow](basicwordpress.md)
+
+[What constitutes a good starting point for a WordPress Theme](startpoint.md)
 
