@@ -1,5 +1,14 @@
 # Speed Build: A Classic WP Theme with Tailwind and Flowbite
 
+- [Speed Build: A Classic WP Theme with Tailwind and Flowbite](#speed-build-a-classic-wp-theme-with-tailwind-and-flowbite)
+  - [Pre-requisites](#pre-requisites)
+  - [Part 1: Configuration in VSCode](#part-1-configuration-in-vscode)
+  - [Part 2: Configure in Pinegrow](#part-2-configure-in-pinegrow)
+  - [Part 3: Flowbite](#part-3-flowbite)
+  - [Part 4: Finishing off](#part-4-finishing-off)
+    - [Single.html](#singlehtml)
+    - [Remaining Templates](#remaining-templates)
+
 As its name suggests this tutorial is going to be a speed build to get a classic WordPress Theme up and running as quickly as possible. To accomplish this we're going to make extensive use of VSCode to configure the project prior to opening it it Pinegrow. Once we've created our Pinegrow project and configured our WordPress settings we'll continue to make wide use of VSCode to speed up development.
 
 The whole process shouldn't take more that 15 minutes and probably considerably less.
