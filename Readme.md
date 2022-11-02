@@ -1,6 +1,6 @@
 # Pinegrow Bits and Pieces
 
-This repository contains what will hopefully become a set of useful files for use in Pinegrow projects.  It will also contain the odd tutorial to help newcomers to Pinegrow get up to speed as quickly as possible.
+This repository contains what will hopefully become a set of useful files for use in Pinegrow projects. It will also contain the odd tutorial to help newcomers to Pinegrow get up to speed as quickly as possible.
 
 - [Pinegrow Bits and Pieces](#pinegrow-bits-and-pieces)
   - [Tailwind](#tailwind)
@@ -12,14 +12,11 @@ This repository contains what will hopefully become a set of useful files for us
     - [A Basic WordPress Theme](#a-basic-wordpress-theme)
     - [WordPress Theme Theory](#wordpress-theme-theory)
 
-
 ## Tailwind
 
-Tailwind is a CSS framework that is applied to your html via classes.  There are literally hundreds of classes that you can chose from to add styling to your html and whilst this might seem daunting at first the concept is actually very simple and to a certain extent you can almost guess your way around.
+Tailwind is a CSS framework that is applied to your html via classes. There are literally hundreds of classes that you can chose from to add styling to your html and whilst this might seem daunting at first the concept is actually very simple and to a certain extent you can almost guess your way around.
 
-To try and make things a bit easier to get started there is a simple cheat sheet that I've drawn up (ostensibly for my own use at first).  It's also available as a pdf so that you can have a paper reference copy.
-
-
+To try and make things a bit easier to get started there is a simple cheat sheet that I've drawn up (ostensibly for my own use at first). It's also available as a pdf so that you can have a paper reference copy.
 
 [Cheat Sheet](cheatsheet.md)
 
@@ -29,7 +26,8 @@ Here are the direct links to those projects that have been mentioned or covered 
 
 ### Basic Tailwind site
 
-A basic website that makes use of Tailwind CSS.  [Github repository](https://github.com/domsinclair/BaseTheme)
+A basic website that makes use of Tailwind CSS. [Github repository](https://github.com/domsinclair/BaseTheme)
+
 ## Tutorials
 
 ### Basic Tailwind Site
@@ -56,3 +54,8 @@ Some very basic theory on the necessities of a WordPress theme.
 
 [What constitutes a good starting point for a WordPress Theme](startpoint.md)
 
+### Speed build: Basic WordPress Classic Theme using Tailwind and Flowbite
+
+A simple quick classic wordpress theme for reuse
+
+[Speed Build: WP ClasicTheme + Tailwind and Flowbite](wpclassicTailwindandflowbite.md)
