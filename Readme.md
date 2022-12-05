@@ -13,6 +13,7 @@ This repository contains what will hopefully become a set of useful files for us
     - [WordPress Theme Theory](#wordpress-theme-theory)
     - [Speed build: Basic WordPress Classic Theme using Tailwind and Flowbite](#speed-build-basic-wordpress-classic-theme-using-tailwind-and-flowbite)
     - [Customising the Basic Theme](#customising-the-basic-theme)
+    - [Custom Library Pages](#custom-library-pages)
 
 ## Tailwind
 
