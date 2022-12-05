@@ -11,6 +11,8 @@ This repository contains what will hopefully become a set of useful files for us
     - [First Pinegrow project](#first-pinegrow-project)
     - [A Basic WordPress Theme](#a-basic-wordpress-theme)
     - [WordPress Theme Theory](#wordpress-theme-theory)
+    - [Speed build: Basic WordPress Classic Theme using Tailwind and Flowbite](#speed-build-basic-wordpress-classic-theme-using-tailwind-and-flowbite)
+    - [Customising the Basic Theme](#customising-the-basic-theme)
 
 ## Tailwind
 
@@ -59,3 +61,13 @@ Some very basic theory on the necessities of a WordPress theme.
 A simple quick classic wordpress theme for reuse
 
 [Speed Build: WP ClasicTheme + Tailwind and Flowbite](wpclassicTailwindandflowbite.md)
+
+### Customising the Basic Theme
+
+This tutorial looks at customising the Basic Theme. It will look at `how to apply specific customisation to meet a client's requirements.
+
+[Fleshing out the Basic Theme](fleshingout.md)
+
+### Custom Library Pages
+
+[Reusable Libraries](reuseable.md)
