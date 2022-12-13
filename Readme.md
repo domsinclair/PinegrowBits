@@ -14,6 +14,7 @@ This repository contains what will hopefully become a set of useful files for us
     - [Speed build: Basic WordPress Classic Theme using Tailwind and Flowbite](#speed-build-basic-wordpress-classic-theme-using-tailwind-and-flowbite)
     - [Customising the Basic Theme](#customising-the-basic-theme)
     - [Custom Library Pages](#custom-library-pages)
+    - [Build your own custom library](#build-your-own-custom-library)
 
 ## Tailwind
 
@@ -71,4 +72,12 @@ This tutorial looks at customising the Basic Theme. It will look at `how to appl
 
 ### Custom Library Pages
 
+This tutorial begins a look at custom libraries, one of Pinegrows most powerful features.
+
 [Reusable Libraries](reuseable.md)
+
+### Build your own custom library
+
+We follow on from our relatively brief intro into custom libraries to have a more detailed look at creating one from scratch.
+
+[Create a custom library from acratch](createlibrary.md)
