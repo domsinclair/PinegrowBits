@@ -34,7 +34,7 @@ The local site will be configured to use Apache, My Sql 5.8 and one version belo
 
 I've decided to use TailwindCSS as its free, integrates beautifully with Pinegrow and supports DarkMode pretty much straight out of the box which immediately ticks off one of my objectives.
 
-The basic setup procedures have been covered here before so for now we'll just say that you'll want to set up your own local wordpress site. You'll also want to setup a working folder in VSCode in which to create you basic Tailwind site. Once you've done that you can fire up Pinegrow and create a new project based on your new site, and activate WordPress for the project. We'll be creating a theme as opposed to a plugin.
+The basic setup procedures have been covered here before so for now we'll just say that you'll want to set up your own local wordpress site. You'll also want to setup a working folder in VSCode in which to create you basic Tailwind site. Once you've done that you can fire up Pinegrow and create a new project based on your new site.
 
 ### WordPress settings
 

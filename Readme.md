@@ -17,6 +17,7 @@ This repository contains what will hopefully become a set of useful files for us
     - [Build your own custom library](#build-your-own-custom-library)
     - [Full Site Build](#full-site-build)
       - [Part 1](#part-1)
+      - [Part 2](#part-2)
 
 ## Tailwind
 
@@ -93,3 +94,7 @@ This is very much of an ongoing work so as each part is finished it will be publ
 #### Part 1
 
 [Basic outline](fullsite.md)
+
+#### Part 2
+
+[Basic outline](fullsite2.md)
