@@ -97,4 +97,4 @@ This is very much of an ongoing work so as each part is finished it will be publ
 
 #### Part 2
 
-[Basic outline](fullsite2.md)
+[The main index page](fullsite2.md)
