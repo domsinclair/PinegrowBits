@@ -5,6 +5,9 @@
   - [Navigation Menu](#navigation-menu)
   - [Main Section and Footer](#main-section-and-footer)
   - [Activating Wordpress](#activating-wordpress)
+  - [Conclusion](#conclusion)
+    - [Dark mode](#dark-mode)
+    - [Light mode](#light-mode)
 
 Having sketched out our objectives in [part 1](fullsite.md) it's now time to start doing some work. It's going to be a WordPress site so at the back of our mind we need to keep in mind how the WordPress template system is structured.
 
@@ -500,3 +503,23 @@ With that done it's time to activate WordPress.
 10 Save everything, export the theme and look at your pages again.
 
 11 That's a bit better.
+
+## Conclusion
+
+With that all done this is what I have ended up with.
+
+### Dark mode
+
+![image Terminal Window](./images/tutorial8/menu.gif)
+
+### Light mode
+
+![image Terminal Window](./images/tutorial8/menu2.gif)
+
+Nothing overly brilliant but we can see that dark and light mode works out of the box according to system settings, the menu is working powered by the Pinegrow interactions and the two pages that were added show up correctly in the menu and when selected.
+
+There are still some accessibility things on the menu to deal with, and there is probably a little more we can tweak to improve the colour scheme for dark and light modes.
+
+For now however that will do.
+
+The next stage is going to be creating the home page.
