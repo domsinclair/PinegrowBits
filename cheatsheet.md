@@ -2,7 +2,7 @@
 
 ## Responsive Design ([Tailwind Docs](https://tailwindcss.com/docs/responsive-design))
 
-At the heart of Tailwind is the concept of Mobile first design.  Roughly translated that means that all utilities that aren't prefixed will apply to all of the breakpoints.  Tailwind has a number of pre configured breakpoints.
+At the heart of Tailwind is the concept of ([Mobile first design](https://www.lukew.com/ff/entry.asp?933)).  Roughly translated that means that all utilities that aren't prefixed will apply to all of the breakpoints.  Tailwind has a number of pre configured breakpoints.
 
 <kbd>sm</kbd>  Equates to a minimum width of 640px creating a media statement @media (min-width: 640px)<br>
 <kbd>md</kbd>  Equates to a minimum width of 768px creating a media statement @media (min-width: 768px)<br>
@@ -10,7 +10,7 @@ At the heart of Tailwind is the concept of Mobile first design.  Roughly transla
 <kbd>xl</kbd>  Equates to a minimum width of 1280px creating a media statement @media (min-width: 1280px)<br>
 <kbd>2xl</kbd>  Equates to a minimum width of 1536px creating a media statement @media (min-width: 1536px)
 
-To add a utility but only have it take effect at certain breakpoinys all that need br done is to prefix the utility with the breakpoint followed by a colon.
+To add a utility but only have it take effect at certain breakpoints all that needs to be done is to prefix the utility with the breakpoint followed by a colon.
 
 ```html
 <!-- Width of 16 by default, 32 on medium screens, and 48 on large screens -->
@@ -27,7 +27,7 @@ Top <kbd> t </kbd>  :  Bottom <kbd> b </kbd> : Left <kbd> l </kbd> : Right <kbd>
 
 ### Padding ([Tailwind Docs](https://tailwindcss.com/docs/padding))
 
-The basic syntax is <kbd> p </kbd>  followed by the number of Pixels.  It can be applied specificall with the use of the spacing modifioers ie;  <kbd> pt-4 </kbd> to produce a top padding of 4 pixels.
+The basic syntax is <kbd> p </kbd>  followed by the number of pixels.  It can be applied specified with the use of the spacing modifiers ie;  <kbd> pt-4 </kbd> to produce a top padding of 4 pixels.
 
 ### Margin  ([Tailwind Docs](https://tailwindcss.com/docs/margin))
 
@@ -73,6 +73,6 @@ As you might by now be expecting we have basic syntax for Flex <kbd> flex </kbd>
 As you would expect there are a vast number of things that you can do with these.  For more informantion check the [Tailwind Docs](https://tailwindcss.com/docs/flex-basis).
 
 
-## Typeography
+## Typography
 
-<kbd> font </kbd> and  <kbd> text </kbd> are the basic utility classes for use with typeography.  Check out the documentation for more information. [Tailwind Docs](https://tailwindcss.com/docs/font-family)
+<kbd> font </kbd> and  <kbd> text </kbd> are the basic utility classes for use with typography.  Check out the documentation for more information. [Tailwind Docs](https://tailwindcss.com/docs/font-family)
