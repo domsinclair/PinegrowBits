@@ -48,16 +48,16 @@ npm init -y
 3. Now execute the following command.
 
 ```
-npm install -D tailwindcss@latest \
-  @tailwindcss/typography@latest \
-  @tailwindcss/forms@latest \
-  postcss@latest \
-  autoprefixer@latest \
-  cssnano@latest \
-  flowbite@latest
+npm install -D tailwindcss@latest 
+npm install -D   @tailwindcss/typography@latest 
+npm install -D   @tailwindcss/forms@latest 
+npm install -D   postcss@latest 
+npm install -D   autoprefixer@latest 
+npm install -D   cssnano@latest 
+npm install -D   flowbite@latest
 ```
 
-This will install Tailwind, Flowbite and a few other useful utilities.
+This will install Tailwind, Flowbite and a few other useful utilities.  You can copy and paste this exactly as is and it will install everything correctly.
 
 4. Next up we'll need tailwind and postcss config files. Execute the following command.
 
